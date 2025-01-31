@@ -14,12 +14,12 @@ const links=[
   {
     id:2,
     title:"Demo",
-    url:"#cover-maker"
+    url:"#demo"
   },
   {
     id:3,
     title:"Contact",
-    url:"/contact"
+    url:"#contact"
   },
   {
     id:4,
@@ -51,7 +51,7 @@ useEffect(() => {
   return (
   <div className={`flex items-center justify-between w-full fixed z-50 px-4 py-2 bg-blacklooking transition-all duration-300 ${isScrolled ? 'bg-blacklooking' : 'bg-transparent'}`}>
     <Link href="/"  >
-    <Image src="/favicon.jpg" alt="logo" width={50} height={8} className="object-contain" />
+    <Image src="/logo.jpg" alt="logo" width={60} height={10} className="object-contain" />
     </Link>
     <div className='flex justify-center items-center gap-16 text-cream font-bold'>
       {
@@ -61,7 +61,7 @@ useEffect(() => {
       }
     </div>
 
-      <button onClick={()=>console.log("clicked")} className='text-cream font-bold '>Logout</button>
+      <button onClick={()=>console.log("clicked")} className='text-cream font-bold '>Login</button>
   </div>
 
   )

@@ -55,11 +55,11 @@ const Hero = () => {
       
       <div className="lg:w-1/2 text-center lg:text-left space-y-6">
         <h1 className="hero__title leading-tight">
-          Designing & developing <br /> the future
+        AdVenture: <br /> AI-Powered Ad Poster Generator
         </h1>
         <p className="text-cream hero__subtitle">
-          We are a team of designers and developers who are passionate about
-          creating innovative and user-friendly products.
+        Automate the design process of your Ad and posters using AI with             
+        various customization options.
         </p>
         <div className="pt-6">
           <button className="bg-cream text-blacklooking font-bold py-3 px-6 rounded-md shadow-lg hover:bg-gray-200">
@@ -72,7 +72,7 @@ const Hero = () => {
           {/* First Photo */}
           <div className="relative  aspect-[3/4] w-60 rounded-md overflow-hidden shadow-lg transform rotate-6 -mr-16 z-10">
             <Image
-              src="/hero1.jpg" 
+              src="/poster4.jpeg" 
               alt="Photo 1"
               layout="fill"
               objectFit="cover"
@@ -82,10 +82,10 @@ const Hero = () => {
           {/* Second Photo */}
           <div className="relative aspect-[3/4] w-60 rounded-md overflow-hidden shadow-lg transform -rotate-3 -mr-12 z-20">
             <Image
-              src="/hero2.jpg" 
+              src="/poster5.jpg" 
               alt="Photo 2"
               layout="fill"
-              objectFit="cover"
+              objectFit="fill"
             />
           </div>
 
@@ -102,10 +102,10 @@ const Hero = () => {
           {/* Fourth Photo */}
           <div className="relative aspect-[3/4] w-60 rounded-md overflow-hidden shadow-lg transform -rotate-6 z-40">
             <Image
-              src="/hero4.jpg" 
+              src="/poster6.jpg" 
               alt="Photo 4"
               layout="fill"
-              objectFit="cover"
+              objectFit="fill"
             />
           </div>
         </div>

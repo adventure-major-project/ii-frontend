@@ -1,7 +1,7 @@
 export default function CoverMaker() {
     return (
     //    Advertisment posters
-      <div id="cover-maker" className="flex flex-col items-center justify-center min-h-screen bg-cream ">
+      <div id="demo" className="flex flex-col items-center justify-center min-h-screen bg-cream ">
         <div className="flex flex-col md:flex-row items-center bg-cream p-6 md:p-10 rounded-lg  max-w-6xl space-y-6 md:space-y-0 md:space-x-6 my-10">
           {/* Left Section */}
           <div className="flex-1 text-center md:text-left">
@@ -9,13 +9,13 @@ export default function CoverMaker() {
               Advertisement Posters
             </h1>
             <p className="mt-4 text-black">
-              Your Advertisement cover is the face of your business. Elevate your
-              <span className="text-blue-500"> Advertisement covers </span> by crafting a distinctive design using our Advertisement cover maker. 
-              With thousands of templates at your disposal, creating a Facebook cover you'll adore has never been simpler. 
-              Customize the images, layout, fonts, and colors – then share your creation with the world.
+            Your advertisement is the face of your brand.  Elevate your marketing with
+            Elevate your marketing with AI-powered ad creation! Our intelligent ad generator crafts stunning and engaging designs in seconds. 
+            Choose from thousands of templates, customize text, images, fonts, and colors effortlessly, and generate high-converting ads for social media and beyond.
+             Let AI handle the design while you focus on growing your business.
             </p>
             <button className="mt-6 px-4 py-2 bg-cream text-blacklooking font-bold rounded-lg shadow hover:bg-gray-400 hover:text-white transition">
-              Make a Facebook poster
+            Make an Advertisement poster
             </button>
           </div>
   
